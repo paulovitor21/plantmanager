@@ -54,23 +54,23 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         color: colors.heading
     },
-    button: {
-        backgroundColor: colors.green,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 16,
-        marginBottom: 10,
-        height: 56,
-        padding: 10
-
-    },
+    /*  button: {
+          backgroundColor: colors.green,
+          justifyContent: 'center',
+          alignItems: 'center',
+          borderRadius: 16,
+          marginBottom: 10,
+          height: 56,
+          padding: 10
+  
+      },*/
     image: {
         width: 292,
         height: 284
-    },
+    }/*,
     buttonText: {
         color: colors.white,
         fontSize: 24
-    }
+    }*/
 
 })
