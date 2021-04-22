@@ -191,8 +191,9 @@ const styles = StyleSheet.create({
         height: 40,
         justifyContent: 'center',
         paddingBottom: 5,
+        marginVertical: 32,
         marginLeft: 32,
-        marginVertical: 32
+        paddingRight: 32
     },
     plants: {
         flex: 1,
