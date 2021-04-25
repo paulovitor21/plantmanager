@@ -64,7 +64,7 @@ export function PlantSave() {
             navigation.navigate('Confirmation', {
                 title: 'Tudo certo',
                 subtitle: 'Fique tranquilo que sempre vamos lembrar você de cuidar das suas plantinhas com muito carinho!',
-                buttoTitle: 'Muito Obrigado :D',
+                buttonTitle: 'Muito Obrigado :D',
                 icon: 'hug',
                 nextScreen: 'MyPlants'
             });
@@ -80,7 +80,7 @@ export function PlantSave() {
     return (
         <ScrollView
             showsVerticalScrollIndicator={false}
-            contentContainerStyle={styles.container}
+            contentContainerStyle={styles.scrollListContainer}
         >
             <View style={styles.container}>
                 <View style={styles.plantInfo}>
@@ -148,6 +148,11 @@ export function PlantSave() {
 }
 
 const styles = StyleSheet.create({
+    scrollListContainer: {
+        flexGrow: 1,
+        justifyContent: 'space-between',
+        backgroundColor: colors.shape
+    },
     container: {
         flex: 1,
         justifyContent: 'space-between',

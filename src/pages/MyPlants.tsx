@@ -4,7 +4,7 @@ import {
     View,
     Text,
     Image,
-    Alert
+    Alert,
 } from 'react-native';
 import { Header } from '../components/Header';
 

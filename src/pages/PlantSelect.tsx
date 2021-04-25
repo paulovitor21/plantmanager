@@ -117,7 +117,7 @@ export function PlantSelect() {
                 </Text>
 
                 <Text style={styles.subtitle}>
-                    você que colocar sua planta?
+                    você quer colocar sua planta?
                 </Text>
             </View>
 
@@ -130,7 +130,6 @@ export function PlantSelect() {
                             title={item.title}
                             active={item.key === enviromentSelected}
                             onPress={() => handleEnviromentSelected(item.key)}
-
                         />
                     )}
                     horizontal

@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text } from 'react-native';
 
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { SvgFromUri } from 'react-native-svg';
 
 import colors from '../styles/colors';
@@ -30,6 +29,7 @@ export const PlantCardPrimary = ({ data, ...rest }: PlantProps) => {
             <Text style={styles.text}>
                 {data.name}
             </Text>
+
         </RectButton>
 
     )
